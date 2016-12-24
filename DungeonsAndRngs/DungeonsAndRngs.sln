@@ -9,12 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Api.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Common", "DungeonsAndRngs.Common\DungeonsAndRngs.Common.csproj", "{ECF4F554-7FBC-4914-A037-DB1F9C711C00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Web", "DungeonsAndRngs.Web\DungeonsAndRngs.Web.csproj", "{E824B39E-6A3B-4E35-B1F1-21C16223DA33}"
-	ProjectSection(ProjectDependencies) = postProject
-		{2B6D8A69-B834-470E-B4F4-99486D773079} = {2B6D8A69-B834-470E-B4F4-99486D773079}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Web", "DungeonsAndRngs.Web\DungeonsAndRngs.Web.csproj", "{AD3E916E-C0BC-4A18-BB57-589FA29A2D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Web.Tests", "DungeonsAndRngs.Web.Tests\DungeonsAndRngs.Web.Tests.csproj", "{9D25C2A2-49C1-41C6-8370-1EDB101AB494}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Web.Tests", "DungeonsAndRngs.Web.Tests\DungeonsAndRngs.Web.Tests.csproj", "{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,14 +31,14 @@ Global
 		{ECF4F554-7FBC-4914-A037-DB1F9C711C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF4F554-7FBC-4914-A037-DB1F9C711C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF4F554-7FBC-4914-A037-DB1F9C711C00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E824B39E-6A3B-4E35-B1F1-21C16223DA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E824B39E-6A3B-4E35-B1F1-21C16223DA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E824B39E-6A3B-4E35-B1F1-21C16223DA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E824B39E-6A3B-4E35-B1F1-21C16223DA33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D25C2A2-49C1-41C6-8370-1EDB101AB494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D25C2A2-49C1-41C6-8370-1EDB101AB494}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D25C2A2-49C1-41C6-8370-1EDB101AB494}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D25C2A2-49C1-41C6-8370-1EDB101AB494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3E916E-C0BC-4A18-BB57-589FA29A2D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3E916E-C0BC-4A18-BB57-589FA29A2D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3E916E-C0BC-4A18-BB57-589FA29A2D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3E916E-C0BC-4A18-BB57-589FA29A2D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

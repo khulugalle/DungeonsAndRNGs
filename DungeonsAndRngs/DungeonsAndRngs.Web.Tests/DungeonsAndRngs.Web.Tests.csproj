@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9D25C2A2-49C1-41C6-8370-1EDB101AB494}</ProjectGuid>
+    <ProjectGuid>{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DungeonsAndRngs.Web.Tests</RootNamespace>
@@ -94,7 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DungeonsAndRngs.Web\DungeonsAndRngs.Web.csproj">
-      <Project>{E824B39E-6A3B-4E35-B1F1-21C16223DA33}</Project>
+      <Project>{AD3E916E-C0BC-4A18-BB57-589FA29A2D57}</Project>
       <Name>DungeonsAndRngs.Web</Name>
     </ProjectReference>
   </ItemGroup>

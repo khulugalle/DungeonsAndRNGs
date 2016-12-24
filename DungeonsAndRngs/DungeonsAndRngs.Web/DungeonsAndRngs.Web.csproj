@@ -9,13 +9,13 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E824B39E-6A3B-4E35-B1F1-21C16223DA33}</ProjectGuid>
+    <ProjectGuid>{AD3E916E-C0BC-4A18-BB57-589FA29A2D57}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DungeonsAndRngs.Web</RootNamespace>
     <AssemblyName>DungeonsAndRngs.Web</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -25,7 +25,6 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,51 +49,23 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="ClearScript, Version=5.4.8.0, Culture=neutral, PublicKeyToken=935d0c957da47c73, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.1.2\lib\net451\ClearScript.dll</HintPath>
+      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.2.0\lib\net45\ClearScript.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.Core, Version=2.1.2.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.Core.2.1.2\lib\net451\JavaScriptEngineSwitcher.Core.dll</HintPath>
+    <Reference Include="JavaScriptEngineSwitcher.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.Core.2.2.0\lib\net45\JavaScriptEngineSwitcher.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.Msie, Version=2.1.2.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.Msie.2.1.2\lib\net451\JavaScriptEngineSwitcher.Msie.dll</HintPath>
+    <Reference Include="JavaScriptEngineSwitcher.Msie, Version=2.2.0.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.Msie.2.2.0\lib\net45\JavaScriptEngineSwitcher.Msie.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.V8, Version=2.1.2.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.1.2\lib\net451\JavaScriptEngineSwitcher.V8.dll</HintPath>
+    <Reference Include="JavaScriptEngineSwitcher.V8, Version=2.2.0.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
+      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.2.0\lib\net45\JavaScriptEngineSwitcher.V8.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="JSPool, Version=2.0.0.0, Culture=neutral, PublicKeyToken=2fc7775f73072640, processorArchitecture=MSIL">
       <HintPath>..\packages\JSPool.2.0.0\lib\net451\JSPool.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -102,8 +73,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="MsieJavaScriptEngine, Version=2.0.2.0, Culture=neutral, PublicKeyToken=a3a2846a37ac0d3e, processorArchitecture=MSIL">
-      <HintPath>..\packages\MsieJavaScriptEngine.2.0.2\lib\net451\MsieJavaScriptEngine.dll</HintPath>
+    <Reference Include="MsieJavaScriptEngine, Version=2.1.0.0, Culture=neutral, PublicKeyToken=a3a2846a37ac0d3e, processorArchitecture=MSIL">
+      <HintPath>..\packages\MsieJavaScriptEngine.2.1.0\lib\net45\MsieJavaScriptEngine.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -124,15 +95,17 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
@@ -174,7 +147,6 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="VroomJs, Version=1.2.3.0, Culture=neutral, PublicKeyToken=e7c52e67fcb0044f, processorArchitecture=MSIL">
       <HintPath>..\packages\VroomJs.1.2.3\lib\net45\VroomJs.dll</HintPath>
       <Private>True</Private>
@@ -190,149 +162,124 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.Identity.Core">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.Identity.Owin">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="Owin">
-      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin">
-      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security">
-      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Facebook">
-      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Cookies">
-      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.OAuth">
-      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Google">
-      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Twitter">
-      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
-      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\Bundles\Foundation.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\ReactConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\foundation-flex.css" />
+    <Content Include="Content\foundation-flex.min.css" />
+    <Content Include="Content\foundation-rtl.css" />
+    <Content Include="Content\foundation-rtl.min.css" />
+    <Content Include="Content\foundation.css" />
+    <Content Include="Content\foundation.min.css" />
+    <Content Include="dist\css\foundation-flex.css" />
+    <Content Include="dist\css\foundation-flex.min.css" />
+    <Content Include="dist\css\foundation-rtl.css" />
+    <Content Include="dist\css\foundation-rtl.min.css" />
+    <Content Include="dist\css\foundation.css" />
+    <Content Include="dist\css\foundation.min.css" />
+    <Content Include="dist\js\foundation.js" />
+    <Content Include="dist\js\foundation.min.js" />
+    <Content Include="dist\js\plugins\foundation.abide.js" />
+    <Content Include="dist\js\plugins\foundation.abide.min.js" />
+    <Content Include="dist\js\plugins\foundation.accordion.js" />
+    <Content Include="dist\js\plugins\foundation.accordion.min.js" />
+    <Content Include="dist\js\plugins\foundation.accordionMenu.js" />
+    <Content Include="dist\js\plugins\foundation.accordionMenu.min.js" />
+    <Content Include="dist\js\plugins\foundation.core.js" />
+    <Content Include="dist\js\plugins\foundation.core.min.js" />
+    <Content Include="dist\js\plugins\foundation.drilldown.js" />
+    <Content Include="dist\js\plugins\foundation.drilldown.min.js" />
+    <Content Include="dist\js\plugins\foundation.dropdown.js" />
+    <Content Include="dist\js\plugins\foundation.dropdown.min.js" />
+    <Content Include="dist\js\plugins\foundation.dropdownMenu.js" />
+    <Content Include="dist\js\plugins\foundation.dropdownMenu.min.js" />
+    <Content Include="dist\js\plugins\foundation.equalizer.js" />
+    <Content Include="dist\js\plugins\foundation.equalizer.min.js" />
+    <Content Include="dist\js\plugins\foundation.interchange.js" />
+    <Content Include="dist\js\plugins\foundation.interchange.min.js" />
+    <Content Include="dist\js\plugins\foundation.magellan.js" />
+    <Content Include="dist\js\plugins\foundation.magellan.min.js" />
+    <Content Include="dist\js\plugins\foundation.offcanvas.js" />
+    <Content Include="dist\js\plugins\foundation.offcanvas.min.js" />
+    <Content Include="dist\js\plugins\foundation.orbit.js" />
+    <Content Include="dist\js\plugins\foundation.orbit.min.js" />
+    <Content Include="dist\js\plugins\foundation.responsiveMenu.js" />
+    <Content Include="dist\js\plugins\foundation.responsiveMenu.min.js" />
+    <Content Include="dist\js\plugins\foundation.responsiveToggle.js" />
+    <Content Include="dist\js\plugins\foundation.responsiveToggle.min.js" />
+    <Content Include="dist\js\plugins\foundation.reveal.js" />
+    <Content Include="dist\js\plugins\foundation.reveal.min.js" />
+    <Content Include="dist\js\plugins\foundation.slider.js" />
+    <Content Include="dist\js\plugins\foundation.slider.min.js" />
+    <Content Include="dist\js\plugins\foundation.sticky.js" />
+    <Content Include="dist\js\plugins\foundation.sticky.min.js" />
+    <Content Include="dist\js\plugins\foundation.tabs.js" />
+    <Content Include="dist\js\plugins\foundation.tabs.min.js" />
+    <Content Include="dist\js\plugins\foundation.toggler.js" />
+    <Content Include="dist\js\plugins\foundation.toggler.min.js" />
+    <Content Include="dist\js\plugins\foundation.tooltip.js" />
+    <Content Include="dist\js\plugins\foundation.tooltip.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.box.js" />
+    <Content Include="dist\js\plugins\foundation.util.box.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.keyboard.js" />
+    <Content Include="dist\js\plugins\foundation.util.keyboard.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.mediaQuery.js" />
+    <Content Include="dist\js\plugins\foundation.util.mediaQuery.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.motion.js" />
+    <Content Include="dist\js\plugins\foundation.util.motion.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.nest.js" />
+    <Content Include="dist\js\plugins\foundation.util.nest.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.timerAndImageLoader.js" />
+    <Content Include="dist\js\plugins\foundation.util.timerAndImageLoader.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.touch.js" />
+    <Content Include="dist\js\plugins\foundation.util.touch.min.js" />
+    <Content Include="dist\js\plugins\foundation.util.triggers.js" />
+    <Content Include="dist\js\plugins\foundation.util.triggers.min.js" />
+    <Content Include="dist\js\plugins\foundation.zf.responsiveAccordionTabs.js" />
+    <Content Include="dist\js\plugins\foundation.zf.responsiveAccordionTabs.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="sass\_normalize.scss" />
-    <Content Include="sass\_foundation.scss" />
-    <Content Include="sass\_foundation.mvc.scss" />
-    <Content Include="sass\Site.scss" />
-    <Content Include="sass\foundation\_settings.scss" />
-    <Content Include="sass\foundation\_functions.scss" />
-    <Content Include="sass\foundation\components\_xy-center.scss" />
-    <Content Include="sass\foundation\components\_visibility.scss" />
-    <Content Include="sass\foundation\components\_type.scss" />
-    <Content Include="sass\foundation\components\_top-bar.scss" />
-    <Content Include="sass\foundation\components\_tooltips.scss" />
-    <Content Include="sass\foundation\components\_toolbar.scss" />
-    <Content Include="sass\foundation\components\_thumbs.scss" />
-    <Content Include="sass\foundation\components\_tabs.scss" />
-    <Content Include="sass\foundation\components\_tables.scss" />
-    <Content Include="sass\foundation\components\_switches.scss" />
-    <Content Include="sass\foundation\components\_switch.scss" />
-    <Content Include="sass\foundation\components\_sub-nav.scss" />
-    <Content Include="sass\foundation\components\_split-buttons.scss" />
-    <Content Include="sass\foundation\components\_side-nav.scss" />
-    <Content Include="sass\foundation\components\_reveal.scss" />
-    <Content Include="sass\foundation\components\_reveal-new.scss" />
-    <Content Include="sass\foundation\components\_range-slider.scss" />
-    <Content Include="sass\foundation\components\_progress-bars.scss" />
-    <Content Include="sass\foundation\components\_pricing-tables.scss" />
-    <Content Include="sass\foundation\components\_panels.scss" />
-    <Content Include="sass\foundation\components\_pagination.scss" />
-    <Content Include="sass\foundation\components\_orbit.scss" />
-    <Content Include="sass\foundation\components\_offcanvas.scss" />
-    <Content Include="sass\foundation\components\_magellan.scss" />
-    <Content Include="sass\foundation\components\_labels.scss" />
-    <Content Include="sass\foundation\components\_keystrokes.scss" />
-    <Content Include="sass\foundation\components\_joyride.scss" />
-    <Content Include="sass\foundation\components\_inline-lists.scss" />
-    <Content Include="sass\foundation\components\_iconbar.scss" />
-    <Content Include="sass\foundation\components\_icon-bar.scss" />
-    <Content Include="sass\foundation\components\_grid.scss" />
-    <Content Include="sass\foundation\components\_global.scss" />
-    <Content Include="sass\foundation\components\_forms.scss" />
-    <Content Include="sass\foundation\components\_flex-video.scss" />
-    <Content Include="sass\foundation\components\_dropdown.scss" />
-    <Content Include="sass\foundation\components\_dropdown-buttons.scss" />
-    <Content Include="sass\foundation\components\_clearing.scss" />
-    <Content Include="sass\foundation\components\_buttons.scss" />
-    <Content Include="sass\foundation\components\_button-groups.scss" />
-    <Content Include="sass\foundation\components\_breadcrumbs.scss" />
-    <Content Include="sass\foundation\components\_block-grid.scss" />
-    <Content Include="sass\foundation\components\_alert-boxes.scss" />
-    <Content Include="sass\foundation\components\_accordion.scss" />
-    <Content Include="App_Readme\Foundation for Sites\readme.md" />
+    <Content Include="js\foundation.abide.js" />
+    <Content Include="js\foundation.accordion.js" />
+    <Content Include="js\foundation.accordionMenu.js" />
+    <Content Include="js\foundation.core.js" />
+    <Content Include="js\foundation.drilldown.js" />
+    <Content Include="js\foundation.dropdown.js" />
+    <Content Include="js\foundation.dropdownMenu.js" />
+    <Content Include="js\foundation.equalizer.js" />
+    <Content Include="js\foundation.interchange.js" />
+    <Content Include="js\foundation.magellan.js" />
+    <Content Include="js\foundation.offcanvas.js" />
+    <Content Include="js\foundation.orbit.js" />
+    <Content Include="js\foundation.responsiveMenu.js" />
+    <Content Include="js\foundation.responsiveToggle.js" />
+    <Content Include="js\foundation.reveal.js" />
+    <Content Include="js\foundation.slider.js" />
+    <Content Include="js\foundation.sticky.js" />
+    <Content Include="js\foundation.tabs.js" />
+    <Content Include="js\foundation.toggler.js" />
+    <Content Include="js\foundation.tooltip.js" />
+    <Content Include="js\foundation.util.box.js" />
+    <Content Include="js\foundation.util.keyboard.js" />
+    <Content Include="js\foundation.util.mediaQuery.js" />
+    <Content Include="js\foundation.util.motion.js" />
+    <Content Include="js\foundation.util.nest.js" />
+    <Content Include="js\foundation.util.timerAndImageLoader.js" />
+    <Content Include="js\foundation.util.touch.js" />
+    <Content Include="js\foundation.util.triggers.js" />
+    <Content Include="js\foundation.zf.responsiveAccordionTabs.js" />
+    <Content Include="Scripts\foundation.js" />
+    <Content Include="Scripts\foundation.min.js" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="Scripts\foundation\fastclick.js" />
-    <Content Include="Scripts\foundation\foundation.abide.js" />
-    <Content Include="Scripts\foundation\foundation.accordion.js" />
-    <Content Include="Scripts\foundation\foundation.alert.js" />
-    <Content Include="Scripts\foundation\foundation.clearing.js" />
-    <Content Include="Scripts\foundation\foundation.dropdown.js" />
-    <Content Include="Scripts\foundation\foundation.equalizer.js" />
-    <Content Include="Scripts\foundation\foundation.interchange.js" />
-    <Content Include="Scripts\foundation\foundation.joyride.js" />
-    <Content Include="Scripts\foundation\foundation.js" />
-    <Content Include="Scripts\foundation\foundation.magellan.js" />
-    <Content Include="Scripts\foundation\foundation.offcanvas.js" />
-    <Content Include="Scripts\foundation\foundation.orbit.js" />
-    <Content Include="Scripts\foundation\foundation.reveal.js" />
-    <Content Include="Scripts\foundation\foundation.slider.js" />
-    <Content Include="Scripts\foundation\foundation.tab.js" />
-    <Content Include="Scripts\foundation\foundation.tooltip.js" />
-    <Content Include="Scripts\foundation\foundation.topbar.js" />
-    <Content Include="Scripts\foundation\jquery.cookie.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
@@ -343,6 +290,64 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\plugins\foundation.abide.js" />
+    <Content Include="Scripts\plugins\foundation.abide.min.js" />
+    <Content Include="Scripts\plugins\foundation.accordion.js" />
+    <Content Include="Scripts\plugins\foundation.accordion.min.js" />
+    <Content Include="Scripts\plugins\foundation.accordionMenu.js" />
+    <Content Include="Scripts\plugins\foundation.accordionMenu.min.js" />
+    <Content Include="Scripts\plugins\foundation.core.js" />
+    <Content Include="Scripts\plugins\foundation.core.min.js" />
+    <Content Include="Scripts\plugins\foundation.drilldown.js" />
+    <Content Include="Scripts\plugins\foundation.drilldown.min.js" />
+    <Content Include="Scripts\plugins\foundation.dropdown.js" />
+    <Content Include="Scripts\plugins\foundation.dropdown.min.js" />
+    <Content Include="Scripts\plugins\foundation.dropdownMenu.js" />
+    <Content Include="Scripts\plugins\foundation.dropdownMenu.min.js" />
+    <Content Include="Scripts\plugins\foundation.equalizer.js" />
+    <Content Include="Scripts\plugins\foundation.equalizer.min.js" />
+    <Content Include="Scripts\plugins\foundation.interchange.js" />
+    <Content Include="Scripts\plugins\foundation.interchange.min.js" />
+    <Content Include="Scripts\plugins\foundation.magellan.js" />
+    <Content Include="Scripts\plugins\foundation.magellan.min.js" />
+    <Content Include="Scripts\plugins\foundation.offcanvas.js" />
+    <Content Include="Scripts\plugins\foundation.offcanvas.min.js" />
+    <Content Include="Scripts\plugins\foundation.orbit.js" />
+    <Content Include="Scripts\plugins\foundation.orbit.min.js" />
+    <Content Include="Scripts\plugins\foundation.responsiveMenu.js" />
+    <Content Include="Scripts\plugins\foundation.responsiveMenu.min.js" />
+    <Content Include="Scripts\plugins\foundation.responsiveToggle.js" />
+    <Content Include="Scripts\plugins\foundation.responsiveToggle.min.js" />
+    <Content Include="Scripts\plugins\foundation.reveal.js" />
+    <Content Include="Scripts\plugins\foundation.reveal.min.js" />
+    <Content Include="Scripts\plugins\foundation.slider.js" />
+    <Content Include="Scripts\plugins\foundation.slider.min.js" />
+    <Content Include="Scripts\plugins\foundation.sticky.js" />
+    <Content Include="Scripts\plugins\foundation.sticky.min.js" />
+    <Content Include="Scripts\plugins\foundation.tabs.js" />
+    <Content Include="Scripts\plugins\foundation.tabs.min.js" />
+    <Content Include="Scripts\plugins\foundation.toggler.js" />
+    <Content Include="Scripts\plugins\foundation.toggler.min.js" />
+    <Content Include="Scripts\plugins\foundation.tooltip.js" />
+    <Content Include="Scripts\plugins\foundation.tooltip.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.box.js" />
+    <Content Include="Scripts\plugins\foundation.util.box.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.keyboard.js" />
+    <Content Include="Scripts\plugins\foundation.util.keyboard.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.mediaQuery.js" />
+    <Content Include="Scripts\plugins\foundation.util.mediaQuery.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.motion.js" />
+    <Content Include="Scripts\plugins\foundation.util.motion.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.nest.js" />
+    <Content Include="Scripts\plugins\foundation.util.nest.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.timerAndImageLoader.js" />
+    <Content Include="Scripts\plugins\foundation.util.timerAndImageLoader.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.touch.js" />
+    <Content Include="Scripts\plugins\foundation.util.touch.min.js" />
+    <Content Include="Scripts\plugins\foundation.util.triggers.js" />
+    <Content Include="Scripts\plugins\foundation.util.triggers.min.js" />
+    <Content Include="Scripts\plugins\foundation.zf.responsiveAccordionTabs.js" />
+    <Content Include="Scripts\plugins\foundation.zf.responsiveAccordionTabs.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
@@ -362,29 +367,83 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\ConfirmEmail.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\ForgotPassword.cshtml" />
-    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\ResetPassword.cshtml" />
-    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\SendCode.cshtml" />
-    <Content Include="Views\Account\VerifyCode.cshtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Manage\ChangePassword.cshtml" />
-    <Content Include="Views\Manage\Index.cshtml" />
-    <Content Include="Views\Manage\ManageLogins.cshtml" />
-    <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
-    <Content Include="Views\Shared\Lockout.cshtml" />
-    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="scss\_global.scss" />
+    <Content Include="scss\util\_value.scss" />
+    <Content Include="scss\util\_util.scss" />
+    <Content Include="scss\util\_unit.scss" />
+    <Content Include="scss\util\_selector.scss" />
+    <Content Include="scss\util\_mixins.scss" />
+    <Content Include="scss\util\_math.scss" />
+    <Content Include="scss\util\_flex.scss" />
+    <Content Include="scss\util\_color.scss" />
+    <Content Include="scss\util\_breakpoint.scss" />
+    <Content Include="scss\typography\_typography.scss" />
+    <Content Include="scss\typography\_print.scss" />
+    <Content Include="scss\typography\_helpers.scss" />
+    <Content Include="scss\typography\_base.scss" />
+    <Content Include="scss\typography\_alignment.scss" />
+    <Content Include="scss\settings\_settings.scss" />
+    <Content Include="scss\grid\_size.scss" />
+    <Content Include="scss\grid\_row.scss" />
+    <Content Include="scss\grid\_position.scss" />
+    <Content Include="scss\grid\_layout.scss" />
+    <Content Include="scss\grid\_gutter.scss" />
+    <Content Include="scss\grid\_grid.scss" />
+    <Content Include="scss\grid\_flex-grid.scss" />
+    <Content Include="scss\grid\_column.scss" />
+    <Content Include="scss\grid\_classes.scss" />
+    <Content Include="scss\foundation.scss" />
+    <Content Include="scss\forms\_text.scss" />
+    <Content Include="scss\forms\_select.scss" />
+    <Content Include="scss\forms\_range.scss" />
+    <Content Include="scss\forms\_progress.scss" />
+    <Content Include="scss\forms\_meter.scss" />
+    <Content Include="scss\forms\_label.scss" />
+    <Content Include="scss\forms\_input-group.scss" />
+    <Content Include="scss\forms\_help-text.scss" />
+    <Content Include="scss\forms\_forms.scss" />
+    <Content Include="scss\forms\_fieldset.scss" />
+    <Content Include="scss\forms\_error.scss" />
+    <Content Include="scss\forms\_checkbox.scss" />
+    <Content Include="scss\components\_visibility.scss" />
+    <Content Include="scss\components\_top-bar.scss" />
+    <Content Include="scss\components\_tooltip.scss" />
+    <Content Include="scss\components\_title-bar.scss" />
+    <Content Include="scss\components\_thumbnail.scss" />
+    <Content Include="scss\components\_tabs.scss" />
+    <Content Include="scss\components\_table.scss" />
+    <Content Include="scss\components\_switch.scss" />
+    <Content Include="scss\components\_sticky.scss" />
+    <Content Include="scss\components\_slider.scss" />
+    <Content Include="scss\components\_reveal.scss" />
+    <Content Include="scss\components\_responsive-embed.scss" />
+    <Content Include="scss\components\_progress-bar.scss" />
+    <Content Include="scss\components\_pagination.scss" />
+    <Content Include="scss\components\_orbit.scss" />
+    <Content Include="scss\components\_off-canvas.scss" />
+    <Content Include="scss\components\_menu.scss" />
+    <Content Include="scss\components\_menu-icon.scss" />
+    <Content Include="scss\components\_media-object.scss" />
+    <Content Include="scss\components\_label.scss" />
+    <Content Include="scss\components\_float.scss" />
+    <Content Include="scss\components\_flex.scss" />
+    <Content Include="scss\components\_flex-video.scss" />
+    <Content Include="scss\components\_dropdown.scss" />
+    <Content Include="scss\components\_dropdown-menu.scss" />
+    <Content Include="scss\components\_drilldown.scss" />
+    <Content Include="scss\components\_close-button.scss" />
+    <Content Include="scss\components\_card.scss" />
+    <Content Include="scss\components\_callout.scss" />
+    <Content Include="scss\components\_button.scss" />
+    <Content Include="scss\components\_button-group.scss" />
+    <Content Include="scss\components\_breadcrumbs.scss" />
+    <Content Include="scss\components\_badge.scss" />
+    <Content Include="scss\components\_accordion.scss" />
+    <Content Include="scss\components\_accordion-menu.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -408,7 +467,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61149</DevelopmentServerPort>
+          <DevelopmentServerPort>56287</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:59989/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
