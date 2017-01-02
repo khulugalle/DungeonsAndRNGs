@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Web", "Dung
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Web.Tests", "DungeonsAndRngs.Web.Tests\DungeonsAndRngs.Web.Tests.csproj", "{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndRngs.Common.Tests", "DungeonsAndRngs.Common.Tests\DungeonsAndRngs.Common.Tests.csproj", "{07ABAAE6-447D-4B9B-9940-16856AE5FB7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DDEF3A9-1D6B-4EB9-96AE-FA9B28479A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07ABAAE6-447D-4B9B-9940-16856AE5FB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07ABAAE6-447D-4B9B-9940-16856AE5FB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07ABAAE6-447D-4B9B-9940-16856AE5FB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07ABAAE6-447D-4B9B-9940-16856AE5FB7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
