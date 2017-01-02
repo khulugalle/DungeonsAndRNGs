@@ -87,7 +87,7 @@ namespace DungeonsAndRngs.Common.Randomisation
         /// <returns></returns>
         public int Roll(int sideNumber)
         {
-            int roll = (int) Math.Round(NumberUtil.RoundToCeiling(randomSeed.NextDouble(), ((double)1/sideNumber)) * sideNumber);
+            int roll = (int) Math.Round(randomSeed.NextDouble().RoundToCeiling((double)1/sideNumber) * sideNumber);
 
             return roll;
         }
